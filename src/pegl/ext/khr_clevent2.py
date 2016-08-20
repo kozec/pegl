@@ -9,7 +9,7 @@ EGL implementation supports.
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_cl_event2.txt
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

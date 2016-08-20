@@ -5,7 +5,7 @@
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_vg_parent_image.txt
 
 '''
-# Copyright © 2012-13 Tim Pederick.
+# Copyright (c) 2012-13 Tim Pederick.
 #
 # This file is part of Pegl.
 #

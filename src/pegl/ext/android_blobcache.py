@@ -9,7 +9,7 @@ http://www.khronos.org/registry/egl/extensions/ANDROID/EGL_ANDROID_blob_cache.tx
 
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

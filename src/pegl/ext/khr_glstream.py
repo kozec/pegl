@@ -8,7 +8,7 @@ consumer of an image stream.
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_stream_consumer_gltexture.txt
 
 '''
-# Copyright © 2012-14 Tim Pederick.
+# Copyright (c) 2012-14 Tim Pederick.
 #
 # This file is part of Pegl.
 #

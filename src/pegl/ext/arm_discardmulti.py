@@ -8,7 +8,7 @@ multisampled rendering internally and only writes downsampled data to
 external memory, thus making the EGL multisample buffer redundant.
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

@@ -9,7 +9,7 @@ having a file descriptor.
 http://www.khronos.org/registry/egl/extensions/ANDROID/EGL_ANDROID_native_fence_sync.txt
 
 '''
-# Copyright © 2012 Tim Pederick.
+# Copyright (c) 2012 Tim Pederick.
 #
 # This file is part of Pegl.
 #

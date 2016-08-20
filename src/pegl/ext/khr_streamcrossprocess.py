@@ -8,7 +8,7 @@ the stream producer and consumer can be in difference processes.
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_stream_cross_process_fd.txt
 
 '''
-# Copyright © 2013-14 Tim Pederick.
+# Copyright (c) 2013-14 Tim Pederick.
 #
 # This file is part of Pegl.
 #

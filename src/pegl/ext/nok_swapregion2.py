@@ -8,7 +8,7 @@ regions of the back buffer.
 http://www.khronos.org/registry/egl/extensions/NOK/EGL_NOK_swap_region2.txt
 
 '''
-# Copyright © 2012-14 Tim Pederick.
+# Copyright (c) 2012-14 Tim Pederick.
 #
 # This file is part of Pegl.
 #

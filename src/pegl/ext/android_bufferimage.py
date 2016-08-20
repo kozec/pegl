@@ -8,7 +8,7 @@ Image extension class.
 http://www.khronos.org/registry/egl/extensions/ANDROID/EGL_ANDROID_image_native_buffer.txt
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

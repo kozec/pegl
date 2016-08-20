@@ -9,7 +9,7 @@ swapped, but the compositor can avoid recomposing unchanged regions.
 http://www.khronos.org/registry/egl/extensions/EXT/EGL_EXT_swap_buffers_with_damage.txt
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

@@ -7,7 +7,7 @@ This extension adds X11 as an explicitly supportable native platform.
 http://www.khronos.org/registry/egl/extensions/EXT/EGL_EXT_platform_x11.txt
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

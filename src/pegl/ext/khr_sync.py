@@ -24,7 +24,7 @@ http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_reusable_sync.txt
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_fence_sync.txt
 
 '''
-# Copyright © 2012-13 Tim Pederick.
+# Copyright (c) 2012-13 Tim Pederick.
 #
 # This file is part of Pegl.
 #

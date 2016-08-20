@@ -7,7 +7,7 @@ This extension adds GBM as an explicitly supportable native platform.
 http://www.khronos.org/registry/egl/extensions/MESA/EGL_MESA_platform_gbm.txt
 
 '''
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 #
 # This file is part of Pegl.
 #

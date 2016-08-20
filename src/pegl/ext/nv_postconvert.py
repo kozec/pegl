@@ -12,7 +12,7 @@ required. Importing this module can serve as a check on whether posting
 a mismatched buffer will cause an error or behave as per the extension.
 
 '''
-# Copyright © 2013 Tim Pederick.
+# Copyright (c) 2013 Tim Pederick.
 #
 # This file is part of Pegl.
 #

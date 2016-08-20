@@ -9,7 +9,7 @@ extension the EGL implementation supports.
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_lock_surface3.txt
 
 '''
-# Copyright © 2012-14 Tim Pederick.
+# Copyright (c) 2012-14 Tim Pederick.
 #
 # This file is part of Pegl.
 #

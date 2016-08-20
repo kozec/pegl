@@ -13,7 +13,7 @@ error is simply propagated upwards. Importing this module can serve as a
 check on whether that functionality will cause an error.
 
 '''
-# Copyright © 2013 Tim Pederick.
+# Copyright (c) 2013 Tim Pederick.
 #
 # This file is part of Pegl.
 #

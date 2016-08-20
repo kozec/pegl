@@ -5,7 +5,7 @@
 http://www.khronos.org/registry/egl/extensions/EXT/EGL_EXT_multiview_window.txt
 
 '''
-# Copyright © 2013 Tim Pederick.
+# Copyright (c) 2013 Tim Pederick.
 #
 # This file is part of Pegl.
 #

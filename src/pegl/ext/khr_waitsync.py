@@ -9,7 +9,7 @@ thread serving the request that blocks.
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_wait_sync.txt
 
 '''
-# Copyright © 2013 Tim Pederick.
+# Copyright (c) 2013 Tim Pederick.
 #
 # This file is part of Pegl.
 #

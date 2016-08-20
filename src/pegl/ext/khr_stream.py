@@ -9,7 +9,7 @@ EGL client APIs. Other extensions specify the "producers" and
 http://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_stream.txt
 
 '''
-# Copyright © 2012-14 Tim Pederick.
+# Copyright (c) 2012-14 Tim Pederick.
 #
 # This file is part of Pegl.
 #

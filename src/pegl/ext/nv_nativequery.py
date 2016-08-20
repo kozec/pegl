@@ -9,7 +9,7 @@ surface, respectively.
 http://www.khronos.org/registry/egl/extensions/NV/EGL_NV_native_query.txt
 
 '''
-# Copyright © 2012 Tim Pederick.
+# Copyright (c) 2012 Tim Pederick.
 #
 # This file is part of Pegl.
 #
