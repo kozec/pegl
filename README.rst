@@ -1,8 +1,10 @@
 ==============================
-Pegl: Python 3 binding for EGL
+Pegl: Python 2 binding for EGL
 ==============================
 
-Pegl is a binding to EGL_ 1.4, written in native Python 3 through the
+*ported from `perey's Python 3 bindings`_*
+
+Pegl is a binding to EGL_ 1.4, written in native Python 2 through the
 ctypes_ library. It provides comprehensive access to EGL_ functions,
 while offering a very Pythonic API.
 
@@ -17,6 +19,7 @@ with previous versions of the specification.
 
 .. _EGL: http://www.khronos.org/egl
 .. _ctypes: http://docs.python.org/py3k/library/ctypes
+.. _perey's Python 3 bindings: https://github.com/perey/pegl
 
 Roadmap
 =======
