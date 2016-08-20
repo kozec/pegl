@@ -65,7 +65,7 @@ class StreamSurface(Surface):
                 attributes.
 
         '''
-        super().__init__(display, config, attribs)
+        Surface.__init__(self, display, config, attribs)
         self.stream = stream
         self.shandle = native_createstream(self.display, self.config,
                                            self.stream, self.attribs)

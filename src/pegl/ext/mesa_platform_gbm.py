@@ -49,4 +49,4 @@ class GBMDisplay(PlatformDisplay):
             delay_init -- As the superclass constructor.
 
         '''
-        super().__init__(native_id=gbm_device, delay_init=delay_init)
+        PlatformDisplay.__init__(self, native_id=gbm_device, delay_init=delay_init)

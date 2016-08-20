@@ -51,4 +51,4 @@ class WaylandDisplay(PlatformDisplay):
             delay_init -- As the superclass constructor.
 
         '''
-        super().__init__(native_id=wl_display, delay_init=delay_init)
+        PlatformDisplay.__init__(self, native_id=wl_display, delay_init=delay_init)

@@ -71,4 +71,4 @@ class OpenCLSync(FenceSync):
 
         '''
         # OpenCL event sync objects have one attribute, an OpenCL event handle.
-        super().__init__(display, {SyncAttribs.CL_EVENT_HANDLE: cl_event})
+        FenceSync.__init__(self, display, {SyncAttribs.CL_EVENT_HANDLE: cl_event})

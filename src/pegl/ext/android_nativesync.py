@@ -80,7 +80,7 @@ class NativeFenceSync(Sync):
 
         '''
         # Native fence sync objects have only one attribute.
-        super().__init__(display, {SyncAttribs.NATIVE_FENCE_FD: fd})
+        Sync.__init__(self, display, {SyncAttribs.NATIVE_FENCE_FD: fd})
 
     @property
     def sync_condition(self):

@@ -236,7 +236,7 @@ class PbufferSurface(Surface):
                 specification) is OPENVG_IMAGE.
 
         '''
-        super().__init__(display, config, attribs)
+        Surface.__init__(self, display, config, attribs)
         if buffer is None:
             self.shandle = native.eglCreatePbufferSurface(self.display,
                                                           self.config,
@@ -351,7 +351,7 @@ class PixmapSurface(Surface):
             pixmap -- The native pixmap to render to.
 
         '''
-        super().__init__(display, config, attribs)
+        Surface.__init__(self, display, config, attribs)
         self.shandle = native.eglCreatePixmapSurface(self.display, self.config,
                                                      pixmap, self.attribs)
 
@@ -376,7 +376,7 @@ class WindowSurface(Surface):
             window -- The native window to which this surface belongs.
 
         '''
-        super().__init__(display, config, attribs)
+        Surface.__init__(self, display, config, attribs)
         self.shandle = native.eglCreateWindowSurface(self.display, self.config,
                                                      window, self.attribs)
 

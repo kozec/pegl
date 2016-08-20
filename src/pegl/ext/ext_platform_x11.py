@@ -58,7 +58,7 @@ class X11Display(PlatformDisplay):
             delay_init -- As the superclass constructor.
 
         '''
-        super().__init__(native_id=x11_display,
+        PlatformDisplay.__init__(self, native_id=x11_display,
                          attribs=AttribList(DisplayAttribs,
                                             {'PLATFORM_X11_SCREEN': x11_screen
                                              }),

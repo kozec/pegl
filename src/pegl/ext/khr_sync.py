@@ -277,7 +277,7 @@ class ReusableSync(Sync):
 
         '''
         # Reusable sync objects have empty attribute lists.
-        super().__init__(display, {})
+        Sync.__init__(self, display, {})
 
     def signal(self, signaled=True):
         '''Signal (or unsignal) the sync object.
@@ -319,7 +319,7 @@ class FenceSync(Sync):
 
         '''
         # Fence sync objects have empty attribute lists.
-        super().__init__(display, {})
+        Sync.__init__(self, display, {})
 
     @property
     def sync_condition(self):

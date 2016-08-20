@@ -46,7 +46,7 @@ class EGLError(Exception):
         '''Create the exception, with a given message or the default.'''
         if msg is None:
             msg = self.default_msg
-        super().__init__(msg)
+        Exception.__init__(self, msg)
 
 
 class NotInitializedError(EGLError):

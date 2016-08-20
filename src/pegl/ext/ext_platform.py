@@ -97,7 +97,7 @@ class PlatformDisplay(Display):
                                     attribs)
 
         # Call the parent class constructor.
-        super().__init__(dhandle=dhandle, delay_init=delay_init)
+        Display.__init__(self, dhandle=dhandle, delay_init=delay_init)
 
 
 class PlatformPixmapSurface(PixmapSurface):
@@ -120,7 +120,7 @@ class PlatformPixmapSurface(PixmapSurface):
             pixmap -- The platform pixmap to render to.
 
         '''
-        super().__init__(display, config, attribs)
+        PixmapSurface.__init__(self, display, config, attribs)
         self.shandle = native_pixmapsurface(self.display, self.config,
                                             pixmap, self.attribs)
 
@@ -146,6 +146,6 @@ class PlatformWindowSurface(WindowSurface):
             window -- The platform window to which this surface belongs.
 
         '''
-        super().__init__(display, config, attribs)
+        WindowSurface.__init__(self, display, config, attribs)
         self.shandle = native_windowsurface(self.display, self.config,
                                             window, self.attribs)

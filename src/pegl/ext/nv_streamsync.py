@@ -71,7 +71,7 @@ class StreamSync(Sync):
         '''
         self.stream = stream
         # Stream sync objects have empty attribute lists.
-        super().__init__(display, {})
+        Sync.__init__(self, display, {})
 
     def _create_handle(self):
         '''Call the native function that generates the sync handle.
