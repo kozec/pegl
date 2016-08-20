@@ -42,9 +42,9 @@ native_streamrelease = load_ext(b'eglStreamConsumerReleaseKHR',
                                 fail_on=False)
 
 # New stream attribute.
-StreamAttribs.extend('CONSUMER_ACQUIRE_TIMEOUT_μs', 0x321E, c_int, 0)
+StreamAttribs.extend('CONSUMER_ACQUIRE_TIMEOUT_us', 0x321E, c_int, 0)
 StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_USEC = \
-    StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_μs
+    StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_us
 
 # Extend the Stream class.
 def consume_gl(stream):
@@ -60,7 +60,7 @@ def acquire_timeout_getter(self):
         A value in microseconds.
 
     '''
-    return self._attr(StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_μs)
+    return self._attr(StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_us)
 def acquire_timeout_setter(self, val):
     '''Set a new value for the consumer acquisition timeout.
 
@@ -70,7 +70,7 @@ def acquire_timeout_setter(self, val):
         consumer will wait indefinitely.
 
     '''
-    self._setattr(StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_μs, int(val))
+    self._setattr(StreamAttribs.CONSUMER_ACQUIRE_TIMEOUT_us, int(val))
 Stream.acquire_timeout = property(fget=acquire_timeout_getter,
                                   fset=acquire_timeout_setter)
 

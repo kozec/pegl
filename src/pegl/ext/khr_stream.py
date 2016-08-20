@@ -81,12 +81,12 @@ StreamStates = namedtuple('StreamStates_tuple',
 class StreamAttribs(Attribs):
     '''The set of EGL attributes relevant to stream objects.'''
     # For creating streams, and setting and querying attributes.
-    CONSUMER_LATENCY_μs = CONSUMER_LATENCY_USEC = 0x3210
+    CONSUMER_LATENCY_us = CONSUMER_LATENCY_USEC = 0x3210
     # For querying attributes only.
     STREAM_STATE = 0x3214
     # For querying attributes using the 64-bit function.
     PRODUCER_FRAME, CONSUMER_FRAME = 0x3212, 0x3213
-    details = {CONSUMER_LATENCY_μs: Details('The average delay before an '
+    details = {CONSUMER_LATENCY_us: Details('The average delay before an '
                                             'inserted frame is visible to the '
                                             'user, in microseconds', c_int, 0),
                STREAM_STATE: Details('The current state of the stream',
@@ -205,7 +205,7 @@ class Stream:
     @property
     def latency(self):
         '''Get the consumer latency of the stream, in microseconds.'''
-        return self._attr(StreamAttribs.CONSUMER_LATENCY_μs)
+        return self._attr(StreamAttribs.CONSUMER_LATENCY_us)
 
     def _connect(self, c_p_type, producer=False):
         '''Connect a consumer or producer type to this stream.
