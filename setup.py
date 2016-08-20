@@ -1,10 +1,12 @@
+#!/usr/bin/env python2
+
 # Setup file for Pegl.
 #
-# Copyright © 2012-14 Tim Pederick.
+# Copyright (c) 2012-14 Tim Pederick.
 # 
 # Some parts based on the PyPA sample project:
 #   https://github.com/pypa/sampleproject/
-# Copyright © 2013-14 The Python Packaging Authority.
+# Copyright (c) 2013-14 The Python Packaging Authority.
 #
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
