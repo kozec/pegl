@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 '''Perform a functional test of the Pegl package on this system.'''
 
-# Copyright © 2012 Tim Pederick.
+# Copyright (c) 2012 Tim Pederick.
 #
 # This file is part of Pegl.
 #

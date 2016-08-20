@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 '''Unit tests for the Pegl config module.'''
 
-# Copyright © 2012 Tim Pederick.
+# Copyright (c) 2012 Tim Pederick.
 #
 # This file is part of Pegl.
 #

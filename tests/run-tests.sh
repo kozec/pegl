@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nosetests3 test_*.py
+nosetests2 test_*.py

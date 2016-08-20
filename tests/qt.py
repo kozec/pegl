@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 '''Test creating a WindowSurface bound to a Qt window.'''
 
-# Copyright © 2012-14 Tim Pederick.
+# Copyright (c) 2012-14 Tim Pederick.
 #
 # This file is part of Pegl.
 #

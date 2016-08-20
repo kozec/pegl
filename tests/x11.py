@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 '''Test creating a WindowSurface bound to an X11 window.'''
 
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 # Based on examples/draw.py from python-x11:
-#     Copyright © 2000 Peter Liljenberg <petli@ctrl-c.liu.se>
+#     Copyright (c) 2000 Peter Liljenberg <petli@ctrl-c.liu.se>
 #
 # This file is part of Pegl.
 #

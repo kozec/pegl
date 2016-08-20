@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 '''Test creating a WindowSurface bound to a GLUT window.'''
 
-# Copyright © 2014 Tim Pederick.
+# Copyright (c) 2014 Tim Pederick.
 # Based on GLUT/gears.py from PyOpenGL-Demo, by Brian Paul, Mark J. Kilgard
 # and Peter Barth, placed in the public domain by the authors.
 #
